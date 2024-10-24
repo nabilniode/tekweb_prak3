@@ -8,19 +8,33 @@ img {
     border: 5px solid #489dce;
  }
  body {background: linear-gradient(to right, #86b6e9, #9bebc3);}
- p { color: rgb(231, 26, 26); width: 500px;
-     border-radius: 10px;
-     padding: 20px;
-     margin: 10px;
-     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-     background-color: aliceblue;
-     }
+ p {
+    color: rgb(231, 26, 26);
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto; /* Menambahkan auto untuk memusatkan paragraf secara horizontal */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    text-align: center; /* Untuk memusatkan teks di dalam paragraf */
+}
+h2 {
+    margin: 10px auto; 
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+    color: #007bff;
+    font-size: 1,1rem;
+    margin-bottom: 30px;
+}
 
-     
-        
-
-
-  
-          
-        
-            
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    text-decoration: underline;
+}
